@@ -1,0 +1,45 @@
+{
+  "glove_port": "/dev/ttyACM0",
+  "glove_offset": [
+    40.0,
+    -70.0,
+    60.0,
+    60.0,
+    60.0,
+    60.0
+  ],
+  "hand_type": "right",
+  "can_iface": "can0",
+  "cam_width": 1280,
+  "cam_height": 720,
+  "cam_hz": 30,
+  "rotate_180": true,
+  "loop_dt": 0.01,
+  "alpha": 0.35,
+  "thumb_scale": 0.7,
+  "index_scale": 0.6,
+  "middle_scale": 0.6,
+  "ring_scale": 0.8,
+  "little_scale": 0.8,
+  "touch_hz": 30.0,
+  "touch_cell": 48,
+  "view_scale": 0.4,
+  "boot": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "boot_hold": 1.0,
+  "safe": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "window": "Teleop"
+}
