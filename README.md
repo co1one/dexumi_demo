@@ -13,19 +13,11 @@ cd dexumi_demo
 ## 2. 创建 conda 环境并安装依赖
 
 ```bash
-./install.sh
-```
+conda create -n dexumi python=3.10 pip -y -c conda-forge
+conda activate dexumi_teleop
 
-该脚本会创建或更新：
-
-```text
-dexumi_teleop
-```
-
-环境固定使用：
-
-```text
-Python 3.10
+python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple \
+  cryptography numpy opencv-python pyserial python-can pyrealsense2
 ```
 
 ## 3. 获取本机 DEVICE_ID
