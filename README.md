@@ -6,8 +6,8 @@
 ## 1. 克隆仓库
 
 ```bash
-git clone <PUBLIC_REPO_URL>
-cd <PUBLIC_REPO_NAME>
+git clone git@github.com:co1one/dexumi_demo.git
+cd dexumi_demo
 ```
 
 ## 2. 创建 conda 环境并安装依赖
