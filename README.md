@@ -12,9 +12,9 @@ cd dexumi_demo
 ## 2. 创建 conda 环境并安装依赖
 
 ```bash
-conda create -n dexumi python=3.10 pip -y -c conda-forge
+conda create -n dexumi_teleop python=3.10 pip -y -c conda-forge
 
-conda run -n dexumi python -m pip install \
+conda run -n dexumi_teleop python -m pip install \
   -i https://pypi.tuna.tsinghua.edu.cn/simple \
   cryptography numpy opencv-python pyserial python-can pyrealsense2
 ```
